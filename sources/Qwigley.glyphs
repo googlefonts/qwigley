@@ -482,7 +482,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 750;
+value = 805;
 },
 {
 name = winDescent;
@@ -54556,5 +54556,5 @@ manufacturer = "Robert E. Leuschke";
 manufacturerURL = www.typesetit.com;
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 4;
+versionMinor = 5;
 }
