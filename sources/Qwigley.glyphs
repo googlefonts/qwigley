@@ -1,5 +1,5 @@
 {
-.appVersion = "1356";
+.appVersion = "1342";
 DisplayStrings = (
 "/brevecomb/brevecomb_acutecomb",
 "/circumflexcomb/circumflexcomb_acutecomb",
@@ -73,23 +73,19 @@ code = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Agrave Aacute Acircu
 name = Uppercase;
 }
 );
-copyright = "Copyright (c) 2011 TypeSETit, LLC (typesetit@att.net),\012with Reserved Font Name \"Qwigley\"";
+copyright = "Copyright 2011 The Qwigley Project Authors (https://github.com/googlefonts/qwigley)";
 customParameters = (
 {
-name = trademark;
-value = "Qwigley is a trademark of TypeSETit, LLC";
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
 },
 {
 name = licenseURL;
-value = "http://scripts.sil.org/OFL";
-},
-{
-name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+value = "https://scripts.sil.org/OFL";
 },
 {
 name = vendorID;
-value = "TSI ";
+value = GOOG;
 },
 {
 name = panose;
@@ -125,6 +121,10 @@ value = (
 name = fsType;
 value = (
 );
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 },
 {
 name = glyphOrder;
@@ -444,6 +444,15 @@ uni0162,
 abreve,
 dcroat,
 uni0163
+);
+},
+{
+name = Axes;
+value = (
+{
+Name = Weight;
+Tag = wght;
+}
 );
 }
 );
@@ -34785,7 +34794,7 @@ width = 370;
 },
 {
 glyphname = circumflexcomb_tildecomb.case;
-lastChange = "2021-04-14 11:56:34 +0000";
+lastChange = "2021-04-15 14:47:10 +0000";
 layers = (
 {
 components = (
@@ -34794,7 +34803,7 @@ name = circumflexcomb.case;
 },
 {
 name = tildecomb.case;
-transform = "{1, 0, 0, 1, 50, 75}";
+transform = "{1, 0, 0, 1, 104, 66}";
 }
 );
 layerId = "8B85D65B-9817-42FC-8CCD-19CD4C331E33";
@@ -35306,7 +35315,8 @@ quotesingle = -46;
 };
 };
 manufacturer = "Robert E. Leuschke";
+manufacturerURL = www.typesetit.com;
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 5;
+versionMinor = 10;
 }
