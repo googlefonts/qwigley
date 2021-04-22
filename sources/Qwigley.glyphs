@@ -1,5 +1,5 @@
 {
-.appVersion = "1356";
+.appVersion = "1342";
 DisplayStrings = (
 "/brevecomb/brevecomb_acutecomb",
 "/circumflexcomb/circumflexcomb_acutecomb",
@@ -54321,5 +54321,5 @@ manufacturer = "Robert E. Leuschke";
 manufacturerURL = www.typesetit.com;
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 5;
+versionMinor = 10;
 }
